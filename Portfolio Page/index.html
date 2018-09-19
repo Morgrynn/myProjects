@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Portfolio Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <!-- header  -->
+    <div class="container-fluid navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a id="brand" href="#welcome" class="navbar-brand">Morgrynn Studios</a>
+                <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <nav>
+                <ul class="nav navbar-nav navbar-right collapse navbar-collapse" id="myCollapsible">
+                    <li><a href="#about"> About</a></li>
+                    <li><a href="#portfolio"> Portfolio</a></li>
+                    <li><a href="#contact"> Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="container-fluid welcome" id="welcome">
+        <h1 class="text-center">
+            <span class="upAndDown"><a href="#">Morgrynn Studios: Portfolio Project</a></span>
+        </h1>
+    </div>
+    <!-- end of header -->
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 description">
+                    <h3>About me ...</h3>
+                    <p>
+                        I'm an aspiring web developer.
+                        I plan to have pieces of code that I have written in many special and wonderful places in the
+                        world.
+                        And perhaps even in an orbiting satelite or space probe.
+                        I really think that would be cool.
+                    </p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <div class="profile-pic pull-right">
+                        <img src="https://avatars.githubusercontent.com/u/16034830?v=3" class="img-responsive img-circle"
+                            alt="profile-picture" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section  -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2><span>PORTFOLIO</span></h2>
+            <div class="row">
+                <div class="col-xs 12 col-sm-6 col-md-3">
+                    <a href="https://codepen.io/morgrynn" target="_blank">
+                        <div class="thumbnail">
+                            <div class="caption">
+                                <h4>Random Quote Machine</h4>
+                            </div>
+                            <img class="project-img" src="http://placehold.it/100x100" />
+                        </div>
+                    </a>
+                    <a href="https://codepen.io/morgrynn" target="_blank">
+                        <div class="thumbnail">
+                            <div class="caption">
+                                <h4>JavaScript Calculator</h4>
+                            </div>
+                            <img class="project-img" src="http://placehold.it/100x100" />
+                        </div>
+                    </a>
+                    <a href="https://codepen.io/morgrynn" target="_blank">
+                        <div class="thumbnail">
+                            <div class="caption">
+                                <h4>Pomodoro Clock</h4>
+                            </div>
+                            <img class="project-img" src="http://placehold.it/100x100" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <footer id="contact">
+        <div class="container">
+            <div class="row text-center social">
+                <h4>CONTACT</h4>
+                <ul class="list-unstyled list-inline">
+                    <li>
+                        <a href="mailTo:morgrynn@gmail.com" target="_blank"><i class="fa fa-envelope fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/morgrynn1" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://codepen.io/morgrynn" target="_blank"><i class="fa fa-codepen fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.freecodecamp.com/morgrynn" target="_blank"><i class="fa fa-fire fa-2x"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="row">
+                <small class="pull.right"> © 2016 MORGRYNN STUDIOS</small>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

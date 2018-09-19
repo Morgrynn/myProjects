@@ -1,0 +1,178 @@
+body {
+    background-color: lightcyan;
+}
+
+#title {
+    text-align: center;
+}
+
+div {
+    background-color: white;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-bottom: 25px;
+}
+
+#description {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#survey-form {
+    text-align: center;
+}
+
+#name-label {
+    margin-right: 250px;
+}
+
+#name {
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 20px;
+}
+
+#email-label {
+    margin-right: 250px;
+}
+
+#email {
+    position: relative;
+    bottom: 20px;
+}
+
+#date-label {
+    margin-right: 250px;
+}
+
+#date {
+    position: relative;
+    margin-right: 28px;
+    bottom: 20px;
+}
+
+#number-label {
+    margin-right: 350px;
+}
+
+#number {
+    position: relative;
+    bottom: 20px;
+}
+
+#dropdown-label {
+    margin-right: 280px;
+}
+
+#dropdown {
+    position: relative;
+    margin-left: 190px;
+    bottom: 20px;
+}
+
+#radio-label {
+    margin-right: 280px;
+}
+
+#radio-x {
+    position: relative;
+    bottom: 20px;
+}
+
+#radio-m {
+    position: relative;
+    margin-right: 100px;
+    bottom: 20px;
+    padding-left: 5px;
+}
+
+#radio-y {
+    position: relative;
+    margin-left: 100px;
+    bottom: 40px;
+}
+
+#radio-f {
+    position: relative;
+    bottom: 40px;
+    padding-left: 5px;
+}
+
+#checkbox-label {
+    margin-right: 620px;
+}
+
+.checkbox1 {
+    position: relative;
+    bottom: 15px;
+    right: 40px;
+}
+
+#mobility {
+    position: relative;
+    bottom: 15px;
+    right: 35px;
+}
+
+.checkbox2 {
+    position: relative;
+    bottom: 15px;
+    right: 42px;
+}
+
+#deadlift {
+    position: relative;
+    bottom: 15px;
+    right: 37px;
+}
+
+.checkbox3 {
+    position: relative;
+    bottom: 15px;
+    right: 33px;
+}
+
+#front-squat {
+    position: relative;
+    bottom: 15px;
+    right: 28px;
+}
+
+.checkbox4 {
+    position: relative;
+    bottom: 15px;
+    right: 19px;
+}
+
+#overhead-press {
+    position: relative;
+    bottom: 15px;
+    right: 17px;
+}
+
+.checkbox5 {
+    position: relative;
+    bottom: 15px;
+    right: 30px;
+}
+
+#bench-press {
+    position: relative;
+    bottom: 15px;
+    right: 27px;
+    
+}
+
+#textarea {
+    margin-right: 580px;
+   
+}
+
+textarea {
+    position: relative;
+    margin-left: 240px;
+    bottom: 15px;
+}
+
+

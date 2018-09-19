@@ -1,0 +1,84 @@
+.jumbotron{
+    text-align: center;
+    background: none;
+    
+}
+
+.sectionLight{
+    background-color: #eceeef;
+    padding: 2rem;
+}
+
+.sectionDark{
+    background-color: #cccccc;
+    padding: 2rem;
+}
+
+.coolStuffWrapper{
+    margin-top: 20px;
+}
+
+button.coolStuffBtn{
+    background-color: red;
+    color: #ffffff;
+    display: block;
+    margin: auto;
+}
+
+h5.modal-title{
+    margin: auto;
+}
+
+.modalFormWrapper{
+    padding: 2rem;
+}
+
+.imgCenter{
+    /*To center things put in displey:block;*/
+    display: block;
+    margin: auto;
+}
+
+.btnCenter{
+    /*To center things put in displey:block;*/
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 57%;
+}
+
+.footerImg{
+    padding: 15px;
+}
+
+.socialWrapper{
+    margin: auto;
+}
+
+.fab{
+    margin: 10px;
+}
+
+.fa-firefox{
+    color: #e67300;
+}
+
+.fa-google-plus-square{
+    color: #c32f10;
+}
+
+.fa-wikipedia-w{
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+

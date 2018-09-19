@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Survey Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <h1 id="title">Survey Form</h1>
+    <div>
+        <p id="description">Health Plan Survey</p>
+
+        <form id="survey-form">
+            <label id="name-label">Name:</label>
+            <br>
+            <input type="text" id="name" name="firstname" placeholder="First name" required>
+            <br>
+            <input type="text" id="name" name="lastname" placeholder="Last name" required>
+            <br>
+            <label id="email-label">Email:</label>
+            <br>
+            <input type="email" id="email" placeholder="Email" required>
+            <br>
+            <label id="date-label">Age:</label>
+            <br>
+            <input type="date" id="date" name="age" >
+            <br>
+            <label id="number-label">Height (meters):</label>
+            <br>
+            <input type="number" id="number" value="number" name="height" placeholder="cm" min="10" max="300" />
+            <br>
+            <label id="number-label">Weight (kilograms):</label>
+            <br>
+            <input type="number" id="number" value="number" name="weight" placeholder="kg" min="10" max="500" />
+            <br>
+            <label id="dropdown-label">Activity:</label>
+            <br>
+            <select id="dropdown">
+                <option value="sedentary">Sedentary - little or no exercise</option>
+                <option value="light">Lightly Active - exercise/sports 1-3 times/week</option>
+                <option value="moderate">Moderately Active - exercise/sports 3-5 times/week</option>
+                <option value="very">Very Active - hard execise/sports 6-7 times/week</option>
+                <option value="extra">Extra Active - very hard exercise/sports or physical job</option>
+                <option value="none" selected>--Please choose an option--</option>
+            </select>
+            <br>
+            <label id="radio-label">Gender:</label>
+            <br>
+            <input type="radio" id="radio-x" name="gender" value="male" checked><label id="radio-m">Male</label>
+            <br>
+            <input type="radio" id="radio-y" name="gender" value="female"><label id="radio-f">Female</label>
+            <br>
+            <label id="checkbox-label">Exercise's you are interested in learning to perform correctly.</label>
+            <br>
+            <input type="checkbox" class="checkbox1" value="mobility">
+            <label id="mobility">Mobility</label>
+            <br>
+            <input type="checkbox" class="checkbox2" value="deadlift">
+            <label id="deadlift">Deadlift</label>
+            <br>
+            <input type="checkbox" class="checkbox3" value="front-squat">
+            <label id="front-squat">Front squat</label>
+            <br>
+            <input type="checkbox" class="checkbox4" value="overhead-press">
+            <label id="overhead-press">Overhead press</label>
+            <br>
+            <input type="checkbox" class="checkbox5" value="bench-press">
+            <label id="bench-press">Bench press</label>
+            <br>
+            <label id="textarea">Any suggestions or exercises you would like to learn?</label><br>
+            <textarea rows="4" cols="50" placeholder="Enter your comment here ..."></textarea>
+            <br>
+            <button type="submit" id="submit">Submit</button>
+            
+
+        </form>
+    </div>
+
+</body>
+
+</html>

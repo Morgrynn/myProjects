@@ -1,0 +1,258 @@
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1,5px;
+  }
+  
+  body {
+    background-color: pink;
+  }
+  
+  body, section, footer {
+    margin-top: 50px;
+  }
+  
+  p {
+    font-family: 'Merriweather', serif;
+    color: white;
+  }
+  
+  /* HEADER */
+  
+  header, .navbar-default {
+    background-color:  #e5d0ff; 
+  }
+  
+  .navbar-defaut {
+    border-color: none !important;
+  }
+  
+  .navbar-fixed-top {
+    border-width: 0;
+  }
+  
+  /*#brand {
+    color: black;
+    background-color: #e5d0ff;
+  }*/
+  
+  
+  #brand, .navbar-default .navbar-nav>li>a, header h1 {
+    column-rule: red; 
+  }
+  
+  /*.navbar-default .navbar-nav>li {
+    background-color: #e5d0ff;
+  }*/
+  
+  .navbar-default .navbar-nav>li>a:hover {
+    color: black; 
+  }
+  
+  header nav a:after, .navbar-header a:after {
+    content: '';
+    displays: block;
+    margin: auto;
+    height: 1px;
+    width: 0%;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+  }
+  
+  header nav a:hover:after, .navbar-header a:hover:after {
+    width: 100%;
+    background-color: green;
+  }
+  
+  .welcome {
+    padding: 200px;
+    background: url("http://officesnapshots.com/wp-content/uploads/2014/06/Interior-4.jpg") center center no-repeat fixed;
+    background-size: cover;
+  }
+  
+  .welcome h1 a {
+    font-size: 50px;
+    color: black;
+  }
+  
+  .upAndDown:hover {
+    color: #021631;/*navy*/
+  }
+  
+  /* About */
+  
+  section {
+    background-color: #c5c1c1;
+    padding: 200px 0 200px 0;
+  }
+  
+  section h3 {
+    display: inline-block;
+    color: white;
+    font-size: 42px;
+    font-weight: 900;
+  }
+  .about p {
+    font-size: 32px;
+    font-weight: 900;
+  }
+  
+  .profile-picture {
+    width: 150px;
+    height: 100%;
+  }
+  
+  .about {
+    padding: 200px;
+    background: url("http://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/249870/37982fed37f5f148d1162c60958dcd53bf0f93c6.jpg") center center no-repeat fixed;
+    background-size: cover;
+  }
+  
+  /* Portfolio */
+  
+  .portfolio {
+    padding: 200px;
+    background: url("https://s-media-cache-ak0.pinimg.com/736x/11/66/e5/1166e5ed6ff5df125ca3635df49c499f.jpg") center center no-repeat fixed;
+    background-size: cover;
+  }
+  
+  .portfolio h2 {
+    padding: 30px 0;
+    color: #adff00;
+    position: relative;
+    text-align: center;
+  }
+  
+  .portfolio h2 span {
+    background:  	#028900;
+    padding: 0 15px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .portfolio h2:before {
+    background: #adff00;
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+  }
+  
+  h2:before {
+    left: 0;
+  }
+  
+  section.container {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #adff00;
+  }
+  
+  .thumbnail {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  caption {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #adff00;
+    width: 100%;
+    height: 100%auto;
+    padding-top: 2%;
+    opacity: 0;
+    text-align: center;
+    color: #ffffff !important;
+    z-index: 2;
+  }
+  
+  .thumbnail .caption {
+    padding: 15% 0;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #111111;
+    color: #999999;
+    margin-bottom: 30px;
+  }
+  
+  footer.social {
+    margin: 80px 0;
+  }
+  
+  footer h4 {
+    margin-bottom: 40px;
+  }
+  
+  footer a {
+    color: #999999;
+  }
+  
+  footer ul, footer small {
+    display: inline;
+  }
+  
+  footer small {
+    margin: 5px 20px;
+    font-size: 0,7em;
+  }
+  
+  .list-inline>li {
+    margin-top: 20px;
+  }
+  
+  /* Media Query */
+  
+  @media screen and (max-width: 990px) {
+    .thumbnail .caption {
+      padding: 20% 0;
+    }
+  
+    .profile-picture.pull-right {
+      float: none !important;
+      margin: 40px auto 0 auto;
+    }
+  
+    .description {
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 770px) {
+    .navbar-default .navbar-collapse {
+      border: none;
+      text-align: center;
+    }
+  
+    .navbar-default .navbar-collapse>li>a {
+      display: incline-block;
+      clear: both;
+    }
+  
+    .thumbnail .caption {
+      padding: 12% 0;
+    }
+  
+    .navbar-default .navbar-toggle {
+     border: 1px solid 	#ffffff;
+   }
+  
+   .navbar-default .navbar-toggle .icon-bar {
+     background-color: 	#ffffff;
+   }
+  
+   header nav a:hover:after, .navbar-header a:hover:after {
+     width: min-content;
+     background: #999999;
+   }
+  }
+  
+  @media screen and (max-width: 660px) {
+   .welcome h1 {
+     font-size: 4em;
+   }
+  }
+  

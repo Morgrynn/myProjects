@@ -1,0 +1,82 @@
+
+
+.container {
+    display: grid;
+    width: 100%;
+    height: 800px;
+    grid-template-columns: 250px 2fr;
+    grid-template-rows: 1fr 2fr;
+    grid-gap: 20px;
+    /* align-items: end; */
+    grid-template-areas: 
+        "nav main main"
+        "nav main main";
+}
+
+nav {
+    grid-area: nav;
+    background-color: lightgrey;
+    border: 2px solid black;
+
+    
+}
+
+main {
+    grid-area: main;
+}
+
+.item1 > header {
+    text-align: start;
+    padding-left: 5px;
+}
+
+.nav-link {
+    display: block;
+    width: 150px;
+    padding-top: 14px;
+    padding-bottom: 2px;
+    text-align: start;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+    color: black;
+}
+
+
+.item2 {
+    text-align: start;
+    padding-left: 5px;
+}
+
+.main-section {
+    padding: 14px;
+}
+
+.main-section > p {
+    text-indent: 2em;
+}
+
+.main-section > ol {
+    list-style-type: lower-roman; 
+}
+
+.main-section > code {
+    display: block;
+    background-color: lightgray;
+    text-align: start;
+    white-space: pre;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 3px;
+
+}
+
+/* for mobile Phones */
+[class*="item"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .item1 {width: 100%;}
+    .item2 {width: 80%;}
+}

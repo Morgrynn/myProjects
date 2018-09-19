@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Quote Machine</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS link -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col text-center" id="one">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center" id="two">
+                <h1>Quote Generator</h1>
+                <h3>Get your Quotes here.</h3>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                <div class="quoteContainer">
+                    <p id="quote">Quote: </p>
+                    <p id="author">Author: </p>
+                </div>
+                <div class="col" id="three">
+                    <ul class="list-unstyled">
+                        <li class="list-inline-item"><a href="#" class="btn btn-info btn-lg cloneQuote" role="button" onclick="getQuote()"><i class="fa fa-quote-left" aria-hidden="true"></i>
+Clone Quote</a></li>
+                        <li class="list-inline-item"><a href="#" class="btn btn-info btn-lg yodaQuote" role="button" onclick="getYodaQuote()"><i class="fa fa-quote-left" aria-hidden="true"></i>
+    Yoda Quote</a></li>
+
+                        <li class="list-inline-item"><a href="#" class="btn btn-info btn-lg tweetClone" role="button" id="tweetClone"><i class="fa fa-twitter" aria-hidden="true"></i>
+Tweet Clone
+</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>

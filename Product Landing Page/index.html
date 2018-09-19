@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Product landing page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+
+    <!-- Header & Navigation section -->
+    <header id="header" class="header">
+        <img id="header-img" class="logo" src="https://i.pinimg.com/originals/ef/1b/15/ef1b1572d4f32018401060d129f9ee65.jpg" alt="Smiling Bee"
+            height="40" width="45">
+        <h4 class="logo">Binary Beekeeping Supplies</h4>
+
+        <nav id="nav-bar">
+            <ul class="topnav">
+                <li>
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li>
+                    <a class="nav-link"  href="#video">Video</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#store">Store</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Main Page Section -->
+    <main>
+        <!-- signup section -->
+        <article  id="home" class="email">
+            <h2>Binary Beekeeping Supplies</h2>
+            <form id="form" action="https://www.freecodecamp.org/email-submit" target="_self" method="POST">
+                <label class="email" for="email">NEWSLETTER SIGN UP</label>
+                <br>
+                <input type="email" id="email" name="email" placeholder="username@domain.com ">
+                <br>
+                <input type="submit" id="submit" value="SUBSCRIBE" class="button">
+            </form>
+        </article>
+
+        <!-- Video -->
+        <article class="about">
+            <h2>Learn About Binary Beekeeping Supplies</h2>
+            <p>This film will describe the specialist equipment used in bee keeping. This includes protective clothing, a hive
+                tool, a bee escape, a bee brush, a queen cage, a bee smoker, an uncapping fork and an uncapping knife, a
+                honey extractor and a bee feeder.
+            </p>
+
+            
+        </article>
+        <iframe id="video" width="600" height="315" src="https://www.youtube.com/embed/yKtw9n7cdME" frameborder="0" allow="autoplay; encrypted-media"
+                allowfullscreen></iframe>
+
+        <!-- Store -->
+        <article class="store" id="store">
+            <h2>Bee Happy Store </h2>
+            <article class="store-shelf">
+                <h3>Bee-ginner's Kits</h3>
+                <i style="font-size:36px" class="fa">&#xf06b;</i>
+                <strong> From €100</strong>
+                <p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum</p>
+                <button type="button" id="select">Select</button>
+            </article>
+            <article class="store-shelf">
+                <h3>Beekeeping Tools</h3>
+                <i style="font-size:36px" class="fa">&#xf29a;</i>
+                <strong>Buzz In And See!</strong>
+                <p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum</p>
+                <button type="button" id="select">Select</button>
+            </article>
+            <article class="store-shelf">
+                <h3>Bee Educated</h3>
+                <i style="font-size:36px" class="fa">&#xf19d;</i>
+                <strong>Books</strong>
+                <p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum</p>
+                <button type="button" id="select">Select</button>
+            </article>
+            <article>
+                <button type="button" id="catalog">Full Catalog</button>
+            </article>
+
+        </article>
+
+
+    </main>
+    <footer>
+        <p>© 2018 Bumble</p>
+        <ul>
+                <li>Terms</li>
+                <li>Blog</li>
+                <li>About</li>
+            </ul>
+
+    </footer>
+</body>
+
+</html>

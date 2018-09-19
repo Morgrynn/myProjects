@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+</head>
+<body>
+    <!-- Use GET, not POST-->
+    
+    <form method="POST">
+        First name:<br>
+        <input type="text" name="firstname"><br>
+        Last name:<br>
+        <input type="text" name="lastname"><br>
+        Email:<br>
+        <input type="email" name="email"><br>
+        Password:<br>
+        <input type="password" name="password" minlength="8"><br>
+        Date of Birth:<br>
+        <input type="date" name="dateOfBirth"><br>
+        Gender:<br>
+        <input type="radio" name="gender" value="male" checked> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other<br>
+        Pets:<br>
+        <input type="checkbox" name="cat"> Cat<br>
+        <input type="checkbox" name="dog"> Dog<br>
+        Cars:<br>
+        <select name="cars">
+            <option value="volve">Volvo</option>
+            <option value="audi">Audi</option>
+        </select><br>
+        <br>
+        <input type="submit" value="Register!">
+        <input type="reset">
+
+    </form>
+    
+</body>
+</html>
+
+<!-- ?firstname=faek
+&lastname=jg
+&email=asdfljk%40asdfj
+&password=asdlfkjasdfljk
+&dateOfBirth=1981-01-14
+&gender=male
+&cat=on
+&cars=volve -->
